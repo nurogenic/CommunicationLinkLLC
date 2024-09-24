@@ -3,7 +3,7 @@ import type { HTMLAttributes } from "astro/types";
 import { cache } from "./cache.js";
 
 interface Props extends HTMLAttributes<"svg"> {
-  name: SVGAttributes;
+  name: string;
   "is:inline"?: boolean;
   title?: string;
   size?: number | string;
