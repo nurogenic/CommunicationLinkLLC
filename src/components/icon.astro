@@ -3,7 +3,7 @@ import type { HTMLAttributes } from "astro/types";
 import { cache } from "./cache.js";
 
 interface Props extends HTMLAttributes<"svg"> {
-  name: string;
+  name: SVGAttributes;
   "is:inline"?: boolean;
   title?: string;
   size?: number | string;
@@ -27,7 +27,7 @@ map.set(name, i + 1);
 cache.set(req, map);
 
 const { include = {} } = { include: {} };
-const sets = Object.keys(include);
+// const sets = Object.keys(include);
 
 const includeSymbol = !inline && i === 0;
 
@@ -56,8 +56,7 @@ if (props.size) {
   delete props.size;
 }
 // const renderData = iconToSVG(iconData);
-const renderData = { attributes: [], body: null }
-const normalizedProps = { ...renderData.attributes, ...props };
+const normalizedProps = props;
 const { default: normalizedBody} = await import(`/src/icons/${iconName}.svg?raw`);
 ---
 
