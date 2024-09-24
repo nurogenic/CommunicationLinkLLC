@@ -3,7 +3,7 @@ import Container from "@components/container.astro";
 import Cta from "@components/cta.astro";
 import Features from "@components/features.astro";
 import Hero from "@components/hero.astro";
-import Logos from "@components/logos.astro";
+// import Logos from "@components/logos.astro";
 import Layout from "@layouts/Layout.astro";
 ---
 
@@ -11,10 +11,14 @@ import Layout from "@layouts/Layout.astro";
   <Container>
     <Hero />
     <Features />
-    <section>
-      <h2>Get Involved</h2>
-      <p>Whether you’re looking for interpreting services or want to learn more about sign language, we’re here to help! Explore our resources, attend our workshops, or contact us for more information.</p>
-  </section>
+    <div class="mt-16">
+      <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+        Get Involved
+      </h2>
+      <p class="text-lg mt-4 text-slate-600">
+        Whether you're looking for interpreting services or want to learn more about sign language, we're here to help! Explore our resources, attend our workshops, or contact us for more information.
+      </p>
+    </div>
     <!-- <Logos /> -->
     <Cta />
   </Container>
