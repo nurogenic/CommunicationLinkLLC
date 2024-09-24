@@ -3,7 +3,7 @@ import Contactform from "@components/contactform.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
-// import { Icon } from "astro-icon/components";
+import Icon from 'components/icon.astro'
 ---
 
 <Layout title="Contact">
@@ -21,16 +21,16 @@ import Layout from "@layouts/Layout.astro";
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <!-- <Icon class="text-gray-400 w-4 h-4" name="uil--map-marker" /> -->
-            <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-gray-400 w-4 h-4" data-icon="uil--map-marker" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="117:44">  <symbol id="ai:local:uil--map-marker" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="124:28"><path fill="currentColor" d="M12 2a8 8 0 0 0-8 8c0 5.4 7.05 11.5 7.35 11.76a1 1 0 0 0 1.3 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8m0 17.65c-2.13-2-6-6.31-6-9.65a6 6 0 0 1 12 0c0 3.34-3.87 7.66-6 9.65M12 6a4 4 0 1 0 4 4 4 4 0 0 0-4-4m0 6a2 2 0 1 1 2-2 2 2 0 0 1-2 2"></path></symbol><use xlink:href="#ai:local:uil--map-marker" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="125:10"></use></svg>
+            <Icon class="text-gray-400 w-4 h-4" name="uil--map-marker" />
+            <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-gray-400 w-4 h-4" data-icon="uil--map-marker" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="117:44">  <symbol id="ai:local:uil--map-marker" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="124:28"><path fill="currentColor" d="M12 2a8 8 0 0 0-8 8c0 5.4 7.05 11.5 7.35 11.76a1 1 0 0 0 1.3 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8m0 17.65c-2.13-2-6-6.31-6-9.65a6 6 0 0 1 12 0c0 3.34-3.87 7.66-6 9.65M12 6a4 4 0 1 0 4 4 4 4 0 0 0-4-4m0 6a2 2 0 1 1 2-2 2 2 0 0 1-2 2"></path></symbol><use xlink:href="#ai:local:uil--map-marker" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="125:10"></use>  </svg>
             <span>Long Island, NY</span>
           </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-gray-400 w-4 h-4" data-icon="uil--envelope" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="117:44">  <symbol id="ai:local:uil--envelope" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="124:28"><path fill="currentColor" d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3m-.41 2-5.88 5.88a1 1 0 0 1-1.42 0L5.41 6ZM20 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7.41l5.88 5.88a3 3 0 0 0 4.24 0L20 7.41Z"></path></symbol><use xlink:href="#ai:local:uil--envelope" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="125:10"></use></svg><a
+            <Icon class="text-gray-400 w-4 h-4" name="uil--envelope" /><a
               href="mailto:hello@astroshipstarter.com"
               >CommunicationLinkASL@gmail.com</a
             >
           </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <svg width="1em" height="1em" viewBox="0 0 24 24" class="text-gray-400 w-4 h-4" data-icon="uil--phone" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="117:44">  <symbol id="ai:local:uil--phone" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="124:28"><path fill="currentColor" d="M19.44 13c-.22 0-.45-.07-.67-.12a9.4 9.4 0 0 1-1.31-.39 2 2 0 0 0-2.48 1l-.22.45a12.2 12.2 0 0 1-2.66-2 12.2 12.2 0 0 1-2-2.66l.42-.28a2 2 0 0 0 1-2.48 10 10 0 0 1-.39-1.31c-.05-.22-.09-.45-.12-.68a3 3 0 0 0-3-2.49h-3a3 3 0 0 0-3 3.41 19 19 0 0 0 16.52 16.46h.38a3 3 0 0 0 2-.76 3 3 0 0 0 1-2.25v-3a3 3 0 0 0-2.47-2.9m.5 6a1 1 0 0 1-.34.75 1.05 1.05 0 0 1-.82.25A17 17 0 0 1 4.07 5.22a1.1 1.1 0 0 1 .25-.82 1 1 0 0 1 .75-.34h3a1 1 0 0 1 1 .79q.06.41.15.81a11 11 0 0 0 .46 1.55l-1.4.65a1 1 0 0 0-.49 1.33 14.5 14.5 0 0 0 7 7 1 1 0 0 0 .76 0 1 1 0 0 0 .57-.52l.62-1.4a14 14 0 0 0 1.58.46q.4.09.81.15a1 1 0 0 1 .79 1Z"></path></symbol><use xlink:href="#ai:local:uil--phone" data-astro-source-file="C:/Users/zi2on/Sites/CommunicationLinkLLC/node_modules/astro-icon/components/Icon.astro" data-astro-source-loc="125:10"></use></svg><a
+            <Icon class="text-gray-400 w-4 h-4" name="uil--phone" /><a
               href="tel:+1 (516) 413 0553">+1 (516) 413 0553</a
             >
           </div>
