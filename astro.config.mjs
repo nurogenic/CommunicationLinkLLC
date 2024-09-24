@@ -2,7 +2,6 @@ import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import icon from "astro-icon";
 
 import cloudflare from '@astrojs/cloudflare';
 
@@ -10,7 +9,7 @@ import cloudflare from '@astrojs/cloudflare';
 export default defineConfig({
   output: 'server',
   site: 'https://communicationlinkllc.pages.dev/',
-  integrations: [tailwind(), mdx(), sitemap(), icon()],
+  integrations: [tailwind(), mdx(), sitemap()],
   adapter: cloudflare({
     platformProxy: {
       enabled: true
