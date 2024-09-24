@@ -1,0 +1,62 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+
+const features = [
+  {
+    title: "On-Site Interpreting",
+    description:
+      "Professional interpreters for meetings, conferences, and workshops.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Video Remote Interpreting (VRI)",
+    description:
+      "Convenient virtual interpreting services for immediate access.",
+    icon: "bx:bxs-window-alt",
+  },
+  {
+    title: "Expertise",
+    description:
+      "Our interpreters are fully certified and trained in cultural competence.",
+    icon: "bx:bxs-data",
+  },
+  {
+    title: "Personalized Service",
+    description:
+      "We tailor our approach to meet your unique needs, ensuring effective communication.",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Commitment to Community",
+    description:
+      "We actively engage in outreach and advocacy, promoting awareness and understanding of Deaf culture.",
+    icon: "bx:bxs-file-find",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Why Choose Us?
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    At CommunicationLink, we believe in the power of communication. Our dedicated team of certified sign language interpreters is here to bridge the gap between the hearing and Deaf communities, ensuring that everyone can connect, share, and engage fully.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>

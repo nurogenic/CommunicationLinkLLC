@@ -1,8 +1,16 @@
 {
 "extends": "astro/tsconfigs/strict",
 "compilerOptions": {
-    "types": [
-        "@cloudflare/workers-types/2023-07-01"
-    ]
+    "baseUrl": "src",
+    "strictNullChecks": true,
+    "types": ["@cloudflare/workers-types/2023-07-01", "astro/client"],
+    "paths": {
+      "@lib/*": ["lib/*"],
+      "@utils/*": ["utils/*"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@assets/*": ["assets/*"],
+      "@pages/*": ["pages/*"]
+    }
 }
 }
