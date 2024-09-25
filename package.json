@@ -2,6 +2,10 @@
   "name": "communication-link",
   "type": "module",
   "version": "0.0.1",
+  "browser":{
+    "child_process": false,
+    "fs": false
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
