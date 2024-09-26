@@ -1,7 +1,6 @@
 ---
 import type { HTMLAttributes } from "astro/types";
 import { ICONS } from '../content/icons'
-import { string } from "astro:schema";
 
 interface Props extends HTMLAttributes<"svg"> {
   name: string;
@@ -23,13 +22,6 @@ if (props.size) {
 }
 
 const { path: innerHTML, ...remainingProps} = ICONS[name];
-/* @vite-ignore */
-try {
-  // const icon =   
-  // const { default: innerHTML } = await import(`./src/icons/${name}.svg?raw`);
-} catch(e) {
-  console.log(e);
-}
 ---
 <svg class:list={[ className ]} {...remainingProps} data-icon={name}>
     <Fragment
