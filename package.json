@@ -2,6 +2,10 @@
   "name": "communication-link",
   "type": "module",
   "version": "0.0.1",
+  "browser":{
+    "child_process": false,
+    "fs": false
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -22,7 +26,6 @@
     "@iconify-json/simple-icons": "^1.2.4",
     "@tailwindcss/typography": "^0.5.15",
     "astro": "^4.15.9",
-    "astro-icon": "^1.1.1",
     "astro-navbar": "^2.3.3",
     "astro-seo": "^0.8.4",
     "sharp": "^0.33.5",

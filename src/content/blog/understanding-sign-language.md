@@ -14,7 +14,9 @@ tags: [Sign Language]
 
 ## What is Sign Language?
 
-Sign language is a visual-manual form of communication that uses hand shapes, facial expressions, and body movements to convey meaning. While many people are familiar with American Sign Language (ASL), it’s important to recognize that there are numerous sign languages around the world, each with its unique structure and vocabulary. For example, British Sign Language (BSL), Auslan (Australian Sign Language), and others serve their respective Deaf communities.
+American Sign Language is a natural language. ASL is a complete and organized visual language that is expressed by employing both manual and non-manual features. It is the primary language of many North Americans in the deaf and hard of hearing communities. Like any spoken language, ASL is a language with its own unique rules, grammar, and syntax.
+
+While many people are familiar with American Sign Language (ASL), it’s important to recognize that there are numerous sign languages around the world, each with its unique structure and vocabulary. For example, British Sign Language (BSL), Auslan (Australian Sign Language), and others serve their respective Deaf communities.
 
 ## The Importance of Sign Language
 

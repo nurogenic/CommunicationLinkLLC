@@ -1,13 +1,12 @@
 ---
-// @ts-ignore
-// import { Icon } from "astro-icon/components";
+import Icon from 'components/icon.astro'
 
 const features = [
   {
     title: "On-Site Interpreting",
     description:
-      "Professional interpreters for meetings, conferences, and workshops.",
-    icon: "bx:bxs-briefcase",
+      "We provide experienced, professional interpreters for your every need.",
+    icon: "bx--map-pin",
   },
   // {
   //   title: "Video Remote Interpreting (VRI)",
@@ -19,20 +18,20 @@ const features = [
     title: "Expertise",
     description:
       "Our interpreters are fully qualified and trained in cultural competence.",
-    icon: "bx:bxs-data",
+    icon: "bx--diamond",
   },
   {
     title: "Personalized Service",
     description:
       "We tailor our approach to meet your unique needs, ensuring effective communication.",
-    icon: "bx:bxs-bot",
+    icon: "bx--id-card",
   },
-  {
-    title: "Commitment to Community",
-    description:
-      "We actively engage in outreach and advocacy, promoting awareness and understanding of Deaf culture.",
-    icon: "bx:bxs-file-find",
-  },
+  // {
+  //   title: "Commitment to Community",
+  //   description:
+  //     "We actively engage in outreach and advocacy, promoting awareness and understanding of Deaf culture.",
+  //   icon: "bx--male-female",
+  // },
 ];
 ---
 
@@ -50,7 +49,7 @@ const features = [
     features.map((item) => (
       <div class="flex gap-4 items-start">
         <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
-          {/* <Icon class="text-white" name={''} /> */}
+          <Icon class="text-white" name={item.icon} />
         </div>
         <div>
           <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
