@@ -1,7 +1,60 @@
-export const ICONS = {
-    'bx--diamond': {
-        "path": '<path fill="currentColor" d="M17.813 3.838A2 2 0 0 0 16.187 3H7.813c-.644 0-1.252.313-1.667.899l-4 6.581a1 1 0 0 0 .111 1.188l9 10a.995.995 0 0 0 1.486.001l9-10a1 1 0 0 0 .111-1.188zM12 19.505L5.245 12h13.509zM4.777 10l3.036-5l8.332-.062L19.222 10z"/>',
-        "xmlns": "http://www.w3.org/2000/svg",
-        "viewBox": "0 0 24 24"
+type IconType = {
+    [key: string]: {
+        path: string;
+        xmlns: string;
+        viewBox: string;
     }
+}
+
+export const ICONS: IconType = {
+    'bx--diamond': {
+        path: '<path fill="currentColor" d="M17.813 3.838A2 2 0 0 0 16.187 3H7.813c-.644 0-1.252.313-1.667.899l-4 6.581a1 1 0 0 0 .111 1.188l9 10a.995.995 0 0 0 1.486.001l9-10a1 1 0 0 0 .111-1.188zM12 19.505L5.245 12h13.509zM4.777 10l3.036-5l8.332-.062L19.222 10z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'bx--id-card': {
+        path: '<path fill="currentColor" d="M9.715 12c1.151 0 2-.849 2-2s-.849-2-2-2s-2 .849-2 2s.848 2 2 2"/><path fill="currentColor" d="M20 4H4c-1.103 0-2 .841-2 1.875v12.25C2 19.159 2.897 20 4 20h16c1.103 0 2-.841 2-1.875V5.875C22 4.841 21.103 4 20 4m0 14l-16-.011V6l16 .011z"/><path fill="currentColor" d="M14 9h4v2h-4zm1 4h3v2h-3zm-1.57 2.536c0-1.374-1.676-2.786-3.715-2.786S6 14.162 6 15.536V16h7.43z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'bx--location-plus': {
+        path: '<path fill="currentColor" d="M11.42 21.815a1 1 0 0 0 1.16 0C12.884 21.598 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.996c-.029 6.444 7.116 11.602 7.42 11.819M12 4c3.309 0 6 2.691 6 6.004c.021 4.438-4.388 8.423-6 9.731c-1.611-1.308-6.021-5.293-6-9.735c0-3.309 2.691-6 6-6"/><path fill="currentColor" d="M11 14h2v-3h3V9h-3V6h-2v3H8v2h3z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'bx--male-female': {
+        path: '<circle cx="6" cy="4" r="2" fill="currentColor"/><path fill="currentColor" d="M9 7H3a1 1 0 0 0-1 1v7h2v7h4v-7h2V8a1 1 0 0 0-1-1"/><circle cx="17" cy="4" r="2" fill="currentColor"/><path fill="currentColor" d="M20.21 7.73a1 1 0 0 0-1-.73h-4.5a1 1 0 0 0-1 .73L12 14h2l-1 4h2v4h4v-4h2l-1-4h2z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'bx--map-pin': {
+        path: '<path fill="currentColor" d="m12 17l1-2V9.858c1.721-.447 3-2 3-3.858c0-2.206-1.794-4-4-4S8 3.794 8 6c0 1.858 1.279 3.411 3 3.858V15zM10 6c0-1.103.897-2 2-2s2 .897 2 2s-.897 2-2 2s-2-.897-2-2"/><path fill="currentColor" d="m16.267 10.563l-.533 1.928C18.325 13.207 20 14.584 20 16c0 1.892-3.285 4-8 4s-8-2.108-8-4c0-1.416 1.675-2.793 4.267-3.51l-.533-1.928C4.197 11.54 2 13.623 2 16c0 3.364 4.393 6 10 6s10-2.636 10-6c0-2.377-2.197-4.46-5.733-5.437"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'bx--universal-access': {
+        path: '<circle cx="12" cy="7.5" r="1.5" fill="currentColor"/><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2m0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8"/><path fill="currentColor" d="M16.5 10.5L16 9l-3 1h-2L8 9l-.5 1.5l3 1V13L9 17.25l1.5.75l1.25-3.5h.5L13.5 18l1.5-.75L13.5 13v-1.5z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'bx--user': {
+        path: '<path fill="currentColor" d="M12 2a5 5 0 1 0 5 5a5 5 0 0 0-5-5m0 8a3 3 0 1 1 3-3a3 3 0 0 1-3 3m9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'uil--envelope': {
+        path: '<path fill="currentColor" d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3m-.41 2l-5.88 5.88a1 1 0 0 1-1.42 0L5.41 6ZM20 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7.41l5.88 5.88a3 3 0 0 0 4.24 0L20 7.41Z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'uil--map-marker': {
+        path: '<path fill="currentColor" d="M12 2a8 8 0 0 0-8 8c0 5.4 7.05 11.5 7.35 11.76a1 1 0 0 0 1.3 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8m0 17.65c-2.13-2-6-6.31-6-9.65a6 6 0 0 1 12 0c0 3.34-3.87 7.66-6 9.65M12 6a4 4 0 1 0 4 4a4 4 0 0 0-4-4m0 6a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
+    'uil--phone': {
+        path: '<path fill="currentColor" d="M19.44 13c-.22 0-.45-.07-.67-.12a9.4 9.4 0 0 1-1.31-.39a2 2 0 0 0-2.48 1l-.22.45a12.2 12.2 0 0 1-2.66-2a12.2 12.2 0 0 1-2-2.66l.42-.28a2 2 0 0 0 1-2.48a10 10 0 0 1-.39-1.31c-.05-.22-.09-.45-.12-.68a3 3 0 0 0-3-2.49h-3a3 3 0 0 0-3 3.41a19 19 0 0 0 16.52 16.46h.38a3 3 0 0 0 2-.76a3 3 0 0 0 1-2.25v-3a3 3 0 0 0-2.47-2.9m.5 6a1 1 0 0 1-.34.75a1.05 1.05 0 0 1-.82.25A17 17 0 0 1 4.07 5.22a1.1 1.1 0 0 1 .25-.82a1 1 0 0 1 .75-.34h3a1 1 0 0 1 1 .79q.06.41.15.81a11 11 0 0 0 .46 1.55l-1.4.65a1 1 0 0 0-.49 1.33a14.5 14.5 0 0 0 7 7a1 1 0 0 0 .76 0a1 1 0 0 0 .57-.52l.62-1.4a14 14 0 0 0 1.58.46q.4.09.81.15a1 1 0 0 1 .79 1Z"/>',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24"
+    },
 }
