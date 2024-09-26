@@ -8,7 +8,7 @@ import cloudflare from '@astrojs/cloudflare';
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  site: 'https://communicationlinkllc.pages.dev/',
+  site: 'https://communicationlinkllc.com/',
   integrations: [tailwind(), mdx(), sitemap()],
   adapter: cloudflare({
     platformProxy: {
