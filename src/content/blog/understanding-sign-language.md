@@ -4,7 +4,7 @@ title: "Understanding Sign Language: A Gateway to Inclusion"
 snippet: "In a world where communication is at the heart of human connection, sign language stands out as a vital tool for breaking down barriers. Often overlooked, sign language is not just a series of gestures; it’s a rich and complex language in its own right, with its own grammar, vocabulary, and cultural significance. Let’s explore the importance of sign language, its diverse forms, and how it fosters inclusivity."
 image: {
     src: "/understanding-sign-language.jpg",
-    alt: "frontend master"
+    alt: "sign language"
 }
 publishDate: "2024-09-24 9:39"
 category: "Sign Language"
