@@ -6,7 +6,7 @@ image: {
     src: "/common-misconceptions-about-asl-and-deaf-communication.webp",
     alt: "sign language"
 }
-publishDate: "2024-10-14 9:30"
+publishDate: "2024-10-16 9:30"
 category: "Sign Language"
 author: "Debbie Desroches"
 tags: [Sign Language]
