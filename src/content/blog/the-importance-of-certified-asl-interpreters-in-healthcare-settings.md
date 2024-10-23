@@ -6,7 +6,7 @@ image: {
     src: "/the-importance-of-certified-asl-interpreters-in-healthcare-settings.png",
     alt: "sign language"
 }
-publishDate: "2024-10-22 9:30"
+publishDate: "2024-10-23 9:30"
 category: "Sign Language"
 author: "Debbie Desroches"
 tags: [Sign Language]
