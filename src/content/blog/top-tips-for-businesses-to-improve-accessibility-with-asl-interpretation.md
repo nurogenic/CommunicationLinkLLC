@@ -3,7 +3,7 @@ draft: false
 title: "Top Tips for Businesses to Improve Accessibility with ASL Interpretation"
 snippet: "In today’s inclusive business landscape, accessibility isn’t just a buzzword – it’s a critical aspect of ensuring equal access to services for everyone, including the Deaf community. Incorporating ASL interpretation into your business practices can significantly improve the customer experience and foster a more inclusive environment. Whether you’re a small business owner or part of a large organization, here are the top tips to improve accessibility with ASL interpretation and make your business more welcoming to all."
 image: {
-    src: "/top-tips-for-businesses-to-improve-accessibility-with1287-asl-interpretation.webp",
+    src: "/top-tips-for-businesses-to-improve-accessibility-with-asl-interpretation.webp",
     alt: "sign language"
 }
 publishDate: "2024-11-20 9:30"
