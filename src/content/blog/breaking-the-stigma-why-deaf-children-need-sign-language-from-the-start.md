@@ -6,7 +6,7 @@ image: {
     src: "/breaking-the-stigma-why-deaf-children-need-sign-language-from-the-start.jpg",
     alt: "sign language"
 }
-publishDate: "2024-11-27 9:30"
+publishDate: "2024-12-04 9:30"
 category: "Sign Language"
 author: "Debbie Desroches"
 tags: [Sign Language]
