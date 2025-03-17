@@ -7,7 +7,7 @@
     "fs": false
   },
   "engines" : {
-    "node" : ">=16.0.0 <18.17.1"
+    "node" : ">=16.0.0 <=18.17.1"
   },
   "scripts": {
     "dev": "astro dev",
