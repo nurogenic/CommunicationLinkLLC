@@ -6,7 +6,7 @@ image: {
     src: "/how-different-countries-have-their-own-sign-sanguages.jpg",
     alt: "sign language"
 }
-publishDate: "2025-3-17 9:30"
+publishDate: "2025-3-19 9:30"
 category: "Sign Language"
 author: "Debbie Desroches"
 tags: [Sign Language]
