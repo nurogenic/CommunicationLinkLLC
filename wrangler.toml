@@ -18,7 +18,6 @@ compatibility_flags = [ "nodejs_compat_v2" ]
 # - https://developers.cloudflare.com/pages/functions/bindings/#secrets
 # [vars]
 # MY_VARIABLE = "production_value"
-NODE_VERSION = "22.14.0"
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#workers-ai
