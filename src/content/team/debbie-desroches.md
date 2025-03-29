@@ -1,7 +1,7 @@
 ---
 draft: false
 name: "Debbie Desroches"
-title: "Owner"
+title: "Founder & CEO"
 avatar: {
     src: "/selfie.png",
     alt: "Debbie Desroches"
