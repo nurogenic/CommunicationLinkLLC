@@ -16,7 +16,7 @@ Captions and subtitles are often thought of as accessibility tools for people wh
 
 ## Accessibility First—But Not Only
 
-For the Deaf and hard of hearing community, captions and subtitles are essential. They provide equal access to audio content—ensuring that everyone, regardless of hearing ability, can fully engage with video and spoken material. Without them, millions of people are excluded from educational content, entertainment, news, and more.
+For the Deaf and hard of hearing community, captions and subtitles are essential. They provide access to audio content—ensuring that everyone, regardless of hearing ability, can fully engage with video and spoken material. Without them, millions of people are excluded from educational content, entertainment, news, and more.
 
 However, the benefits of captions extend far beyond accessibility:
 
