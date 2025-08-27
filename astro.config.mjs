@@ -11,7 +11,7 @@ export default defineConfig({
   site: 'https://communicationlinkllc.com/',
   integrations: [tailwind(), mdx(), sitemap()],
   adapter: cloudflare({
-    imageService: 'cloudflare',
+    imageService: 'compile',
     platformProxy: {
       enabled: true
     }
